@@ -1,7 +1,11 @@
 head {
     background-color: linen;
 }
-  
+
+body {
+    background-color: lightblue;
+}
+
 h1 {
 color: maroon;
 margin-left: 40px;
