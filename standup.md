@@ -1,14 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <link rel="stylesheet" href="./style.css">
-    CSE 110 Standup (Lab3)
-  <body>
-    <p> What did I work on yesterday? </p>
-    <br>
-    <p> What am I working on today? </p>
-    <br>
-    <p> What issues are blocking me? </p>
-  </body>
-</html>
+10/15/2022 Meeting
+
+I worked on adding by personal info to our group contract and team.md on my group organization github page. 
+Today I am working on finishing lab 3 and learn more about markdown.
+
+● What did I work on yesterday?
+● What am I working on today?
+● What issues are blocking me?
