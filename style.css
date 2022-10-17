@@ -11,7 +11,16 @@ h2 { /* h2 is shifted 20px right, so it looks like subsections in google documen
     margin-left: 20px;
 }
 
-p {
+.underline {
+    text-decoration: underline;
+}
+.block {
+    border: 2px solid blue;
+    display: inline-block;
+    padding: .5em;
+}
+
+p { /* Basic text comment */
     color: black;
     margin-left: 40px;
   }
@@ -20,11 +29,26 @@ p {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     grid-gap: 20px;
-    align-items: stretch;
+    align-items: start;
+}
+.grid img { /* Set size limit for images */
+    width: 250px;
+    height: 250px;
+  }
+
+a:hover {
+    color: yellowgreen;
 }
 
-.grid img {
-    border: 1px solid #ccc;
-    box-shadow: 2px 2px 6px 0px  rgba(0,0,0,0.3);
-    max-width: 100%;
-  }
+@font-face { /* https://fonts.google.com/specimen/Fuzzy+Bubbles */
+    font-family: 'FuzzyBubblesBold';
+    src: url('fonts/FuzzyBubblesBold.eot');
+    src: url('fonts/FuzzyBubblesBold.eot') format('embedded-opentype'),
+         url('fonts/FuzzyBubblesBold.woff2') format('woff2'),
+         url('fonts/FuzzyBubblesBold.woff') format('woff'),
+         url('fonts/FuzzyBubblesBold.ttf') format('truetype'),
+         url('fonts/FuzzyBubblesBold.svg#FuzzyBubblesBold') format('svg');
+}
+.font_fuzzy {
+    font-family: "FuzzyBubblesBold", serif;
+}
